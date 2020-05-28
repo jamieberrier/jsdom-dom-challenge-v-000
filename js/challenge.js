@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const heart = document.getElementById('heart');
   const submit = document.getElementById('submit');
 
+  // event listeners
   pause.addEventListener('click', paused);
 
   function increment() {
