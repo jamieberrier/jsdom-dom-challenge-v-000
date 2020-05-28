@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
   function updateCounter() {
     increment();
   }
-
+  // pause button
   function paused() {
     if (pause.innerText == 'pause'){
       // change button text
