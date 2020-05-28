@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   let intervalId = setInterval(updateCounter, 1000);
   const counter = document.getElementById('counter');
+  // buttons
   const pause = document.getElementById('pause');
   const plus = document.getElementById('plus');
   const minus = document.getElementById('minus');
