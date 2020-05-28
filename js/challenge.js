@@ -11,9 +11,14 @@ document.addEventListener('DOMContentLoaded', function() {
   // event listeners
   pause.addEventListener('click', paused);
   plus.addEventListener('click', increment);
+  minus.addEventListener('click', decrement);
 
   function increment() {
     counter.innerText++;
+  }
+
+  function decrement() {
+    counter.innerText--;
   }
 
   function updateCounter() {
