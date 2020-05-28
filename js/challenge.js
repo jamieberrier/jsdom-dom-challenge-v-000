@@ -32,6 +32,10 @@ document.addEventListener('DOMContentLoaded', function() {
       clearInterval(intervalId);
     } else {
       pause.innerText = 'pause';
+      plus.disable = false;
+      minus.disable = false;
+      heart.disable = false;
+      submit.disable = false;
       //restart counter
       intervalId = setInterval(updateCounter, 1000);
     }
