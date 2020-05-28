@@ -23,7 +23,10 @@ document.addEventListener('DOMContentLoaded', function() {
     if (pause.innerText == 'pause'){
       pause.innerText = 'resume';
       // disable buttons
-
+      plus.disable = true;
+      minus.disable = true;
+      heart.disable = true;
+      submit.disable = true;
       //stop counter
       clearInterval(intervalId);
     } else {
