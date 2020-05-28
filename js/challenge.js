@@ -32,6 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
       clearInterval(intervalId);
     } else {
       pause.innerText = 'pause';
+      // enable buttons
       plus.disable = false;
       minus.disable = false;
       heart.disable = false;
