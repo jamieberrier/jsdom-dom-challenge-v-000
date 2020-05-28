@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // event listeners
   pause.addEventListener('click', paused);
+  plus.addEventListener('click', increment);
 
   function increment() {
     counter.innerText++;
