@@ -20,9 +20,10 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function paused() {
-    //disable buttons
     if (pause.innerText == 'pause'){
       pause.innerText = 'resume';
+      // disable buttons
+
       //stop counter
       clearInterval(intervalId);
     } else {
