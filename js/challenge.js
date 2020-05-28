@@ -30,7 +30,6 @@ document.addEventListener('DOMContentLoaded', function() {
       //restart counter
       intervalId = setInterval(updateCounter, 1000);
     }
-
   }
 
   intervalId;
