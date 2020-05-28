@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function paused() {
     if (pause.innerText == 'pause'){
+      // change button text
       pause.innerText = 'resume';
       // disable buttons
       plus.disable = true;
