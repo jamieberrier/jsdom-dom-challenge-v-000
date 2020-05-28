@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
       //stop counter
       clearInterval(intervalId);
     } else {
+      // change button text
       pause.innerText = 'pause';
       // enable buttons
       plus.disable = false;
